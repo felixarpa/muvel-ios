@@ -9,6 +9,8 @@ struct TextView: View {
         switch style {
         case .headline:
             return 48
+        case .subheadline:
+            return 32
         case .title:
             return 24
         case .subtitle:
@@ -26,6 +28,8 @@ struct TextView: View {
         switch style {
         case .headline:
             return .heavy
+        case .subheadline:
+            return .bold
         case .title:
             return .bold
         case .subtitle:
@@ -41,7 +45,7 @@ struct TextView: View {
     
     var verticalPadding: CGFloat {
         switch style {
-        case .headline:
+        case .headline, .subheadline:
             return 4
         case .title, .subtitle:
             return 2
@@ -54,6 +58,7 @@ struct TextView: View {
     
     enum Style {
         case headline
+        case subheadline
         case title
         case subtitle
         case text

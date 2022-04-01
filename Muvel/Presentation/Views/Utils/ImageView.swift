@@ -12,7 +12,7 @@ struct ImageView: View {
     var body: some View {
         Image(uiImage: image)
             .resizable()
-            .aspectRatio(contentMode: .fit)
+            .aspectRatio(contentMode: .fill)
             .onReceive(imageLoader.didChange) { data in
                 self.image = UIImage(data: data) ?? UIImage()
             }

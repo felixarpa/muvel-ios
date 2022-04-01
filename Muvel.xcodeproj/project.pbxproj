@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31EA7D3A27F6215B006DDE02 /* MuvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D3927F6215B006DDE02 /* MuvelApp.swift */; };
-		31EA7D3C27F6215B006DDE02 /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D3B27F6215B006DDE02 /* ArtistDetailView.swift */; };
+		31EA7D3C27F6215B006DDE02 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D3B27F6215B006DDE02 /* ArtistView.swift */; };
 		31EA7D3E27F62160006DDE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EA7D3D27F62160006DDE02 /* Assets.xcassets */; };
 		31EA7D4127F62160006DDE02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EA7D4027F62160006DDE02 /* Preview Assets.xcassets */; };
 		31EA7D4B27F62160006DDE02 /* MuvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D4A27F62160006DDE02 /* MuvelTests.swift */; };
@@ -23,6 +23,9 @@
 		31EA7D7C27F63F0E006DDE02 /* ShowRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D7B27F63F0E006DDE02 /* ShowRow.swift */; };
 		31EA7D7E27F64D97006DDE02 /* ArtistHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D7D27F64D97006DDE02 /* ArtistHeaderView.swift */; };
 		31EA7D8027F6BBDB006DDE02 /* ShowsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D7F27F6BBDB006DDE02 /* ShowsListView.swift */; };
+		31EA7D8227F6C84C006DDE02 /* ArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */; };
+		31EA7D8427F6D0FE006DDE02 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */; };
+		31EA7D8C27F6DEB8006DDE02 /* ShowDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8B27F6DEB8006DDE02 /* ShowDateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,7 @@
 /* Begin PBXFileReference section */
 		31EA7D3627F6215B006DDE02 /* Muvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EA7D3927F6215B006DDE02 /* MuvelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuvelApp.swift; sourceTree = "<group>"; };
-		31EA7D3B27F6215B006DDE02 /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
+		31EA7D3B27F6215B006DDE02 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
 		31EA7D3D27F62160006DDE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31EA7D4027F62160006DDE02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31EA7D4627F62160006DDE02 /* MuvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuvelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +65,9 @@
 		31EA7D7B27F63F0E006DDE02 /* ShowRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRow.swift; sourceTree = "<group>"; };
 		31EA7D7D27F64D97006DDE02 /* ArtistHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistHeaderView.swift; sourceTree = "<group>"; };
 		31EA7D7F27F6BBDB006DDE02 /* ShowsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsListView.swift; sourceTree = "<group>"; };
+		31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListView.swift; sourceTree = "<group>"; };
+		31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
+		31EA7D8B27F6DEB8006DDE02 /* ShowDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +156,9 @@
 		31EA7D6527F62229006DDE02 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				31EA7D6327F62191006DDE02 /* ImageView.swift */,
-				31EA7D6627F62242006DDE02 /* TextView.swift */,
-				31EA7D3B27F6215B006DDE02 /* ArtistDetailView.swift */,
-				31EA7D7D27F64D97006DDE02 /* ArtistHeaderView.swift */,
-				31EA7D7B27F63F0E006DDE02 /* ShowRow.swift */,
-				31EA7D7F27F6BBDB006DDE02 /* ShowsListView.swift */,
+				31EA7D8827F6D143006DDE02 /* Utils */,
+				31EA7D8727F6D134006DDE02 /* Show */,
+				31EA7D8527F6D110006DDE02 /* Artist */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,36 @@
 			children = (
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		31EA7D8527F6D110006DDE02 /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				31EA7D3B27F6215B006DDE02 /* ArtistView.swift */,
+				31EA7D7D27F64D97006DDE02 /* ArtistHeaderView.swift */,
+				31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */,
+				31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */,
+			);
+			path = Artist;
+			sourceTree = "<group>";
+		};
+		31EA7D8727F6D134006DDE02 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				31EA7D7B27F63F0E006DDE02 /* ShowRow.swift */,
+				31EA7D7F27F6BBDB006DDE02 /* ShowsListView.swift */,
+				31EA7D8B27F6DEB8006DDE02 /* ShowDateView.swift */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		31EA7D8827F6D143006DDE02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				31EA7D6327F62191006DDE02 /* ImageView.swift */,
+				31EA7D6627F62242006DDE02 /* TextView.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,15 +365,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EA7D8427F6D0FE006DDE02 /* ArtistRow.swift in Sources */,
 				31EA7D6427F62191006DDE02 /* ImageView.swift in Sources */,
 				31EA7D7427F6399B006DDE02 /* Price.swift in Sources */,
 				31EA7D6727F62242006DDE02 /* TextView.swift in Sources */,
 				31EA7D8027F6BBDB006DDE02 /* ShowsListView.swift in Sources */,
 				31EA7D7C27F63F0E006DDE02 /* ShowRow.swift in Sources */,
-				31EA7D3C27F6215B006DDE02 /* ArtistDetailView.swift in Sources */,
+				31EA7D3C27F6215B006DDE02 /* ArtistView.swift in Sources */,
 				31EA7D7A27F63E10006DDE02 /* UseCase.swift in Sources */,
 				31EA7D6E27F62C4A006DDE02 /* Artist.swift in Sources */,
 				31EA7D7E27F64D97006DDE02 /* ArtistHeaderView.swift in Sources */,
+				31EA7D8227F6C84C006DDE02 /* ArtistListView.swift in Sources */,
+				31EA7D8C27F6DEB8006DDE02 /* ShowDateView.swift in Sources */,
 				31EA7D7227F63991006DDE02 /* Show.swift in Sources */,
 				31EA7D3A27F6215B006DDE02 /* MuvelApp.swift in Sources */,
 			);
