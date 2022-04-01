@@ -1,8 +1,17 @@
 import SwiftUI
 
 struct ArtistView: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     var artist: Artist
+    
+    var backButton: some View {
+        Image(systemName: "chevron.backward")
+            .foregroundColor(.white)
+            .onTapGesture {
+                self.presentationMode.wrappedValue.dismiss()
+            }
+    }
     
     var body: some View {
         ScrollView() {
@@ -21,13 +30,9 @@ struct ArtistView: View {
         .background(.black)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .ignoresSafeArea(.container, edges: .vertical)
-        .navigationTitle("Felix Arpa")
-        
-    }
-}
-
-extension ArtistView {
-    class ViewModel: ObservableObject {
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: backButton)
     }
 }
 
