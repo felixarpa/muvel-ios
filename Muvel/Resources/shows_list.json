@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "name": "Primavera sound",
+        "rawDate": "2022-06-14",
+        "date": {
+            "month": "Jun",
+            "day": "14"
+        },
+        "ticketPrice": {
+            "value": 12,
+            "label": "12€"
+        },
+        "travelPrice": {
+            "value": 34,
+            "label": "34€"
+        },
+        "totalPrice": {
+            "value": 46,
+            "label": "46€"
+        }
+    },
+    {
+        "id": "3",
+        "name": "MadCool",
+        "rawDate": "2022-07-01",
+        "date": {
+            "month": "Jul",
+            "day": "1"
+        },
+        "ticketPrice": {
+            "value": 84,
+            "label": "84€"
+        },
+        "travelPrice": {
+            "value": 42,
+            "label": "42€"
+        },
+        "totalPrice": {
+            "value": 126,
+            "label": "126€"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Bellaterra",
+        "rawDate": "2022-10-11",
+        "date": {
+            "month": "Oct",
+            "day": "11"
+        },
+        "ticketPrice": {
+            "value": 84,
+            "label": "84€"
+        },
+        "travelPrice": {
+            "value": 42,
+            "label": "42€"
+        },
+        "totalPrice": {
+            "value": 126,
+            "label": "126€"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Telecogresca",
+        "rawDate": "2022-11-29",
+        "date": {
+            "month": "Nov",
+            "day": "29"
+        },
+        "ticketPrice": {
+            "value": 84,
+            "label": "84€"
+        },
+        "travelPrice": {
+            "value": 42,
+            "label": "42€"
+        },
+        "totalPrice": {
+            "value": 126,
+            "label": "126€"
+        }
+    }
+]
