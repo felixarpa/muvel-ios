@@ -4,7 +4,7 @@ import SwiftUI
 struct MuvelApp: App {
     var body: some Scene {
         WindowGroup {
-            ArtistListView()
+            ArtistsListView()
         }
     }
 }

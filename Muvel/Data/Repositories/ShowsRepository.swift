@@ -1,7 +1,8 @@
 import Foundation
 
 class ShowsRepository: ShowsRepositoryProtocol {
-    let service: DataService = LocalDataService()
+    // TODO: inject
+    private let service: DataService = LocalDataService()
     
     func getShowsList(artistId: String, completion: @escaping ([Show]) -> Void) {
         DispatchQueue.main.async {

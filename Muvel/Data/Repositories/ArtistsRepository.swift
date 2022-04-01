@@ -1,7 +1,8 @@
 import Foundation
 
 class ArtistsRepository: ArtistsRepositoryProtocol {
-    let service: DataService = LocalDataService()
+    // TODO: inject
+    private let service: DataService = LocalDataService()
     
     func getArtistsList(completion: @escaping ([Artist]) -> Void) {
         DispatchQueue.main.async {
