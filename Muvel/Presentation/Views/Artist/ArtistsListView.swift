@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ArtistsListView: View {
+struct ArtistListView: View {
     
     @StateObject var viewModel = ArtistsViewModel()
     
@@ -32,8 +32,8 @@ struct ArtistsListView: View {
     }
 }
 
-struct ArtistsListView_Previews: PreviewProvider {
+struct ArtistListView_Previews: PreviewProvider {
     static var previews: some View {
-        ArtistsListView()
+        ArtistListView()
     }
 }

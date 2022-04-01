@@ -15,6 +15,8 @@
 		31E7426927F7586700B5B411 /* artists_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E7426827F7586700B5B411 /* artists_list.json */; };
 		31E7426B27F75A4F00B5B411 /* ShowsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7426A27F75A4F00B5B411 /* ShowsRepository.swift */; };
 		31E7426D27F75AE800B5B411 /* shows_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E7426C27F75AE800B5B411 /* shows_list.json */; };
+		31E7426F27F75D6A00B5B411 /* ArtistsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7426E27F75D6A00B5B411 /* ArtistsViewModel.swift */; };
+		31E7427127F75F6200B5B411 /* ShowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7427027F75F6200B5B411 /* ShowsViewModel.swift */; };
 		31EA7D3A27F6215B006DDE02 /* MuvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D3927F6215B006DDE02 /* MuvelApp.swift */; };
 		31EA7D3C27F6215B006DDE02 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D3B27F6215B006DDE02 /* ArtistView.swift */; };
 		31EA7D3E27F62160006DDE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EA7D3D27F62160006DDE02 /* Assets.xcassets */; };
@@ -31,7 +33,7 @@
 		31EA7D7C27F63F0E006DDE02 /* ShowRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D7B27F63F0E006DDE02 /* ShowRow.swift */; };
 		31EA7D7E27F64D97006DDE02 /* ArtistHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D7D27F64D97006DDE02 /* ArtistHeaderView.swift */; };
 		31EA7D8027F6BBDB006DDE02 /* ShowsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D7F27F6BBDB006DDE02 /* ShowsListView.swift */; };
-		31EA7D8227F6C84C006DDE02 /* ArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */; };
+		31EA7D8227F6C84C006DDE02 /* ArtistsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8127F6C84C006DDE02 /* ArtistsListView.swift */; };
 		31EA7D8427F6D0FE006DDE02 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */; };
 		31EA7D8C27F6DEB8006DDE02 /* ShowDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8B27F6DEB8006DDE02 /* ShowDateView.swift */; };
 		448256C7B52B37E4D866EAD8 /* Pods_Muvel_MuvelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF026C622A62DBB912AFF53 /* Pods_Muvel_MuvelUITests.framework */; };
@@ -66,6 +68,8 @@
 		31E7426827F7586700B5B411 /* artists_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists_list.json; sourceTree = "<group>"; };
 		31E7426A27F75A4F00B5B411 /* ShowsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsRepository.swift; sourceTree = "<group>"; };
 		31E7426C27F75AE800B5B411 /* shows_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shows_list.json; sourceTree = "<group>"; };
+		31E7426E27F75D6A00B5B411 /* ArtistsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsViewModel.swift; sourceTree = "<group>"; };
+		31E7427027F75F6200B5B411 /* ShowsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsViewModel.swift; sourceTree = "<group>"; };
 		31EA7D3627F6215B006DDE02 /* Muvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EA7D3927F6215B006DDE02 /* MuvelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuvelApp.swift; sourceTree = "<group>"; };
 		31EA7D3B27F6215B006DDE02 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
@@ -85,7 +89,7 @@
 		31EA7D7B27F63F0E006DDE02 /* ShowRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRow.swift; sourceTree = "<group>"; };
 		31EA7D7D27F64D97006DDE02 /* ArtistHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistHeaderView.swift; sourceTree = "<group>"; };
 		31EA7D7F27F6BBDB006DDE02 /* ShowsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsListView.swift; sourceTree = "<group>"; };
-		31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListView.swift; sourceTree = "<group>"; };
+		31EA7D8127F6C84C006DDE02 /* ArtistsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsListView.swift; sourceTree = "<group>"; };
 		31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
 		31EA7D8B27F6DEB8006DDE02 /* ShowDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDateView.swift; sourceTree = "<group>"; };
 		3DF026C622A62DBB912AFF53 /* Pods_Muvel_MuvelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvel_MuvelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +250,8 @@
 		31EA7D6927F62BD1006DDE02 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				31E7426E27F75D6A00B5B411 /* ArtistsViewModel.swift */,
+				31E7427027F75F6200B5B411 /* ShowsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -283,7 +289,7 @@
 			children = (
 				31EA7D3B27F6215B006DDE02 /* ArtistView.swift */,
 				31EA7D7D27F64D97006DDE02 /* ArtistHeaderView.swift */,
-				31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */,
+				31EA7D8127F6C84C006DDE02 /* ArtistsListView.swift */,
 				31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */,
 			);
 			path = Artist;
@@ -548,13 +554,15 @@
 				31EA7D6E27F62C4A006DDE02 /* Artist.swift in Sources */,
 				31E7426127F74FB700B5B411 /* ArtistsRepository.swift in Sources */,
 				31EA7D7E27F64D97006DDE02 /* ArtistHeaderView.swift in Sources */,
+				31E7427127F75F6200B5B411 /* ShowsViewModel.swift in Sources */,
 				31E7425E27F74EE600B5B411 /* ShowsRepositoryProtocol.swift in Sources */,
-				31EA7D8227F6C84C006DDE02 /* ArtistListView.swift in Sources */,
+				31EA7D8227F6C84C006DDE02 /* ArtistsListView.swift in Sources */,
 				31E7426527F753BC00B5B411 /* LocalDataService.swift in Sources */,
 				31E7425B27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift in Sources */,
 				31EA7D8C27F6DEB8006DDE02 /* ShowDateView.swift in Sources */,
 				31EA7D7227F63991006DDE02 /* Show.swift in Sources */,
 				31EA7D3A27F6215B006DDE02 /* MuvelApp.swift in Sources */,
+				31E7426F27F75D6A00B5B411 /* ArtistsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
