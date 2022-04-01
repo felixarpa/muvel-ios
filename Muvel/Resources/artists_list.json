@@ -1,0 +1,42 @@
+[
+    {
+        "id": "10",
+        "name": "Arctic Monkeys",
+        "imageUrl": "https://d3iln1l77n73l7.cloudfront.net/couch_images/attachments/000/084/141/original/41440968_10217957945604234_4650379761049141248_n.jpg?2019"
+    },
+    {
+        "id": "30",
+        "name": "Felix Arpa",
+        "imageUrl": "https://i1.sndcdn.com/avatars-Wx61u2Y5LfEmZ75m-y6eHvQ-t500x500.jpg"
+    },
+    {
+        "id": "20",
+        "name": "Foo Fighters",
+        "imageUrl": "https://dynamicmedia.livenationinternational.com/Media/p/x/b/2e35b3c5-8167-42e7-b204-3318a55af99e.jpg?auto=webp&width=1507.2"
+    },
+    {
+        "id": "40",
+        "name": "Lana del Rey",
+        "imageUrl": "https://dynamicmedia.livenationinternational.com/Media/n/i/e/6004a4f7-ac01-48e5-8160-11350193e1d8.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Tyler, The Creator",
+        "imageUrl": "https://media.wonderlandmagazine.com/uploads/2021/06/E4BWhgBVkAAFU_H.jpg"
+    },
+    {
+        "id": "31",
+        "name": "Men I Trust",
+        "imageUrl": "https://www.billboard.com/wp-content/uploads/media/emma-men-trust-2019-billboard-1548_0.jpg?w=1024"
+    },
+    {
+        "id": "21",
+        "name": "Tame Impala",
+        "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2019/03/Tame-Impala-Matt-Sav-SYNTK.jpg"
+    },
+    {
+        "id": "41",
+        "name": "Boy Pablo",
+        "imageUrl": "https://i1.sndcdn.com/avatars-n5wi4yLS0yikC7mw-5NzEMA-t500x500.jpg"
+    }
+]

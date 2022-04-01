@@ -1,6 +1,6 @@
 import Foundation
 
-struct Show: Identifiable {
+struct Show: Identifiable, Decodable {
     let id: String
     let name: String
     let rawDate: String
@@ -9,7 +9,7 @@ struct Show: Identifiable {
     let travelPrice: Price
     let totalPrice: Price
     
-    struct Date {
+    struct Date: Decodable {
         let month: String
         let day: String
     }

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31E7425B27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7425A27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift */; };
+		31E7425E27F74EE600B5B411 /* ShowsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7425D27F74EE600B5B411 /* ShowsRepositoryProtocol.swift */; };
+		31E7426127F74FB700B5B411 /* ArtistsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7426027F74FB700B5B411 /* ArtistsRepository.swift */; };
+		31E7426527F753BC00B5B411 /* LocalDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7426427F753BC00B5B411 /* LocalDataService.swift */; };
+		31E7426727F7541C00B5B411 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7426627F7541C00B5B411 /* DataService.swift */; };
+		31E7426927F7586700B5B411 /* artists_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E7426827F7586700B5B411 /* artists_list.json */; };
+		31E7426B27F75A4F00B5B411 /* ShowsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7426A27F75A4F00B5B411 /* ShowsRepository.swift */; };
+		31E7426D27F75AE800B5B411 /* shows_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E7426C27F75AE800B5B411 /* shows_list.json */; };
 		31EA7D3A27F6215B006DDE02 /* MuvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D3927F6215B006DDE02 /* MuvelApp.swift */; };
 		31EA7D3C27F6215B006DDE02 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D3B27F6215B006DDE02 /* ArtistView.swift */; };
 		31EA7D3E27F62160006DDE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EA7D3D27F62160006DDE02 /* Assets.xcassets */; };
@@ -26,6 +34,9 @@
 		31EA7D8227F6C84C006DDE02 /* ArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */; };
 		31EA7D8427F6D0FE006DDE02 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */; };
 		31EA7D8C27F6DEB8006DDE02 /* ShowDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA7D8B27F6DEB8006DDE02 /* ShowDateView.swift */; };
+		448256C7B52B37E4D866EAD8 /* Pods_Muvel_MuvelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF026C622A62DBB912AFF53 /* Pods_Muvel_MuvelUITests.framework */; };
+		A2D3C862B06F16012BD579FE /* Pods_Muvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A3EC40A861DD35E275A0F0 /* Pods_Muvel.framework */; };
+		C94596EAB9362DA6FE099587 /* Pods_MuvelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA806C8C1FEF9DFC3B7583E /* Pods_MuvelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +57,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A3EC40A861DD35E275A0F0 /* Pods_Muvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E7425A27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArtistsRepositoryProtocol.swift; path = Muvel/Domain/Repositories/ArtistsRepositoryProtocol.swift; sourceTree = SOURCE_ROOT; };
+		31E7425D27F74EE600B5B411 /* ShowsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsRepositoryProtocol.swift; sourceTree = "<group>"; };
+		31E7426027F74FB700B5B411 /* ArtistsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsRepository.swift; sourceTree = "<group>"; };
+		31E7426427F753BC00B5B411 /* LocalDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataService.swift; sourceTree = "<group>"; };
+		31E7426627F7541C00B5B411 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		31E7426827F7586700B5B411 /* artists_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists_list.json; sourceTree = "<group>"; };
+		31E7426A27F75A4F00B5B411 /* ShowsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsRepository.swift; sourceTree = "<group>"; };
+		31E7426C27F75AE800B5B411 /* shows_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shows_list.json; sourceTree = "<group>"; };
 		31EA7D3627F6215B006DDE02 /* Muvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EA7D3927F6215B006DDE02 /* MuvelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuvelApp.swift; sourceTree = "<group>"; };
 		31EA7D3B27F6215B006DDE02 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
@@ -68,6 +88,14 @@
 		31EA7D8127F6C84C006DDE02 /* ArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListView.swift; sourceTree = "<group>"; };
 		31EA7D8327F6D0FE006DDE02 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
 		31EA7D8B27F6DEB8006DDE02 /* ShowDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDateView.swift; sourceTree = "<group>"; };
+		3DF026C622A62DBB912AFF53 /* Pods_Muvel_MuvelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvel_MuvelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7935F1DBBD70813EA11CA2 /* Pods-Muvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvel.debug.xcconfig"; path = "Target Support Files/Pods-Muvel/Pods-Muvel.debug.xcconfig"; sourceTree = "<group>"; };
+		756EDF800B475154E6F503C3 /* Pods-Muvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvel.release.xcconfig"; path = "Target Support Files/Pods-Muvel/Pods-Muvel.release.xcconfig"; sourceTree = "<group>"; };
+		8CA806C8C1FEF9DFC3B7583E /* Pods_MuvelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuvelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9E5E5EEFBE431B4FE5D21D /* Pods-MuvelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvelTests.release.xcconfig"; path = "Target Support Files/Pods-MuvelTests/Pods-MuvelTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEE1DF4F57A5D9F3AFB162D1 /* Pods-Muvel-MuvelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvel-MuvelUITests.release.xcconfig"; path = "Target Support Files/Pods-Muvel-MuvelUITests/Pods-Muvel-MuvelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F598282176849F9B4D5873 /* Pods-MuvelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvelTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvelTests/Pods-MuvelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0050F09A264E6D74D700412 /* Pods-Muvel-MuvelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvel-MuvelUITests.debug.xcconfig"; path = "Target Support Files/Pods-Muvel-MuvelUITests/Pods-Muvel-MuvelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D3C862B06F16012BD579FE /* Pods_Muvel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94596EAB9362DA6FE099587 /* Pods_MuvelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +119,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448256C7B52B37E4D866EAD8 /* Pods_Muvel_MuvelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31E7425C27F74E5D00B5B411 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				31E7425A27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift */,
+				31E7425D27F74EE600B5B411 /* ShowsRepositoryProtocol.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		31E7425F27F74FA300B5B411 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				31E7426027F74FB700B5B411 /* ArtistsRepository.swift */,
+				31E7426A27F75A4F00B5B411 /* ShowsRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		31E7426227F7538D00B5B411 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31E7426C27F75AE800B5B411 /* shows_list.json */,
+				31E7426827F7586700B5B411 /* artists_list.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31E7426327F753AD00B5B411 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				31E7426427F753BC00B5B411 /* LocalDataService.swift */,
+				31E7426627F7541C00B5B411 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		31EA7D2D27F6215B006DDE02 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +169,8 @@
 				31EA7D4927F62160006DDE02 /* MuvelTests */,
 				31EA7D5327F62161006DDE02 /* MuvelUITests */,
 				31EA7D3727F6215B006DDE02 /* Products */,
+				4ABDF1FB89647584A5B4AAE1 /* Pods */,
+				B2CFB51364501BDD7BDA414E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +187,7 @@
 		31EA7D3827F6215B006DDE02 /* Muvel */ = {
 			isa = PBXGroup;
 			children = (
+				31E7426227F7538D00B5B411 /* Resources */,
 				31EA7D3927F6215B006DDE02 /* MuvelApp.swift */,
 				31EA7D6C27F62BF4006DDE02 /* Data */,
 				31EA7D6B27F62BEC006DDE02 /* Domain */,
@@ -192,6 +262,7 @@
 		31EA7D6B27F62BEC006DDE02 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				31E7425C27F74E5D00B5B411 /* Repositories */,
 				31EA7D6827F62BC8006DDE02 /* Model */,
 				31EA7D7927F63E10006DDE02 /* UseCase.swift */,
 			);
@@ -201,6 +272,8 @@
 		31EA7D6C27F62BF4006DDE02 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				31E7426327F753AD00B5B411 /* Services */,
+				31E7425F27F74FA300B5B411 /* Repositories */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -235,6 +308,29 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		4ABDF1FB89647584A5B4AAE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D7935F1DBBD70813EA11CA2 /* Pods-Muvel.debug.xcconfig */,
+				756EDF800B475154E6F503C3 /* Pods-Muvel.release.xcconfig */,
+				F0050F09A264E6D74D700412 /* Pods-Muvel-MuvelUITests.debug.xcconfig */,
+				AEE1DF4F57A5D9F3AFB162D1 /* Pods-Muvel-MuvelUITests.release.xcconfig */,
+				B9F598282176849F9B4D5873 /* Pods-MuvelTests.debug.xcconfig */,
+				AE9E5E5EEFBE431B4FE5D21D /* Pods-MuvelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2CFB51364501BDD7BDA414E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A3EC40A861DD35E275A0F0 /* Pods_Muvel.framework */,
+				3DF026C622A62DBB912AFF53 /* Pods_Muvel_MuvelUITests.framework */,
+				8CA806C8C1FEF9DFC3B7583E /* Pods_MuvelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31EA7D5A27F62161006DDE02 /* Build configuration list for PBXNativeTarget "Muvel" */;
 			buildPhases = (
+				606139BC55C3A65F19205502 /* [CP] Check Pods Manifest.lock */,
 				31EA7D3227F6215B006DDE02 /* Sources */,
 				31EA7D3327F6215B006DDE02 /* Frameworks */,
 				31EA7D3427F6215B006DDE02 /* Resources */,
@@ -259,6 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31EA7D5D27F62161006DDE02 /* Build configuration list for PBXNativeTarget "MuvelTests" */;
 			buildPhases = (
+				195C4016E708BBE12082DAE3 /* [CP] Check Pods Manifest.lock */,
 				31EA7D4227F62160006DDE02 /* Sources */,
 				31EA7D4327F62160006DDE02 /* Frameworks */,
 				31EA7D4427F62160006DDE02 /* Resources */,
@@ -277,6 +375,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31EA7D6027F62161006DDE02 /* Build configuration list for PBXNativeTarget "MuvelUITests" */;
 			buildPhases = (
+				2CB567EB0664778926BF2F8A /* [CP] Check Pods Manifest.lock */,
 				31EA7D4C27F62161006DDE02 /* Sources */,
 				31EA7D4D27F62161006DDE02 /* Frameworks */,
 				31EA7D4E27F62161006DDE02 /* Resources */,
@@ -339,7 +438,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E7426927F7586700B5B411 /* artists_list.json in Resources */,
 				31EA7D4127F62160006DDE02 /* Preview Assets.xcassets in Resources */,
+				31E7426D27F75AE800B5B411 /* shows_list.json in Resources */,
 				31EA7D3E27F62160006DDE02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,22 +461,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195C4016E708BBE12082DAE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuvelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB567EB0664778926BF2F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muvel-MuvelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606139BC55C3A65F19205502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muvel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31EA7D3227F6215B006DDE02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E7426B27F75A4F00B5B411 /* ShowsRepository.swift in Sources */,
 				31EA7D8427F6D0FE006DDE02 /* ArtistRow.swift in Sources */,
 				31EA7D6427F62191006DDE02 /* ImageView.swift in Sources */,
 				31EA7D7427F6399B006DDE02 /* Price.swift in Sources */,
 				31EA7D6727F62242006DDE02 /* TextView.swift in Sources */,
 				31EA7D8027F6BBDB006DDE02 /* ShowsListView.swift in Sources */,
 				31EA7D7C27F63F0E006DDE02 /* ShowRow.swift in Sources */,
+				31E7426727F7541C00B5B411 /* DataService.swift in Sources */,
 				31EA7D3C27F6215B006DDE02 /* ArtistView.swift in Sources */,
 				31EA7D7A27F63E10006DDE02 /* UseCase.swift in Sources */,
 				31EA7D6E27F62C4A006DDE02 /* Artist.swift in Sources */,
+				31E7426127F74FB700B5B411 /* ArtistsRepository.swift in Sources */,
 				31EA7D7E27F64D97006DDE02 /* ArtistHeaderView.swift in Sources */,
+				31E7425E27F74EE600B5B411 /* ShowsRepositoryProtocol.swift in Sources */,
 				31EA7D8227F6C84C006DDE02 /* ArtistListView.swift in Sources */,
+				31E7426527F753BC00B5B411 /* LocalDataService.swift in Sources */,
+				31E7425B27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift in Sources */,
 				31EA7D8C27F6DEB8006DDE02 /* ShowDateView.swift in Sources */,
 				31EA7D7227F63991006DDE02 /* Show.swift in Sources */,
 				31EA7D3A27F6215B006DDE02 /* MuvelApp.swift in Sources */,
@@ -533,6 +709,7 @@
 		};
 		31EA7D5B27F62161006DDE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7935F1DBBD70813EA11CA2 /* Pods-Muvel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -562,6 +739,7 @@
 		};
 		31EA7D5C27F62161006DDE02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756EDF800B475154E6F503C3 /* Pods-Muvel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -591,6 +769,7 @@
 		};
 		31EA7D5E27F62161006DDE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F598282176849F9B4D5873 /* Pods-MuvelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -611,6 +790,7 @@
 		};
 		31EA7D5F27F62161006DDE02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9E5E5EEFBE431B4FE5D21D /* Pods-MuvelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -631,6 +811,7 @@
 		};
 		31EA7D6127F62161006DDE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0050F09A264E6D74D700412 /* Pods-Muvel-MuvelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -649,6 +830,7 @@
 		};
 		31EA7D6227F62161006DDE02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE1DF4F57A5D9F3AFB162D1 /* Pods-Muvel-MuvelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
