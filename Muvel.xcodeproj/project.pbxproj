@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313071ED2806AE0C00BA430F /* RemoteDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313071EC2806AE0C00BA430F /* RemoteDataService.swift */; };
 		31E7425B27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7425A27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift */; };
 		31E7425E27F74EE600B5B411 /* ShowsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7425D27F74EE600B5B411 /* ShowsRepositoryProtocol.swift */; };
 		31E7426127F74FB700B5B411 /* ArtistsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7426027F74FB700B5B411 /* ArtistsRepository.swift */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		02A3EC40A861DD35E275A0F0 /* Pods_Muvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		313071EC2806AE0C00BA430F /* RemoteDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataService.swift; sourceTree = "<group>"; };
 		31E7425A27F74E5100B5B411 /* ArtistsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArtistsRepositoryProtocol.swift; path = Muvel/Domain/Repositories/ArtistsRepositoryProtocol.swift; sourceTree = SOURCE_ROOT; };
 		31E7425D27F74EE600B5B411 /* ShowsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsRepositoryProtocol.swift; sourceTree = "<group>"; };
 		31E7426027F74FB700B5B411 /* ArtistsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsRepository.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				31E7426427F753BC00B5B411 /* LocalDataService.swift */,
 				31E7426627F7541C00B5B411 /* DataService.swift */,
+				313071EC2806AE0C00BA430F /* RemoteDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 				31EA7D6727F62242006DDE02 /* TextView.swift in Sources */,
 				31EA7D8027F6BBDB006DDE02 /* ShowsListView.swift in Sources */,
 				31EA7D7C27F63F0E006DDE02 /* ShowRow.swift in Sources */,
+				313071ED2806AE0C00BA430F /* RemoteDataService.swift in Sources */,
 				31E7426727F7541C00B5B411 /* DataService.swift in Sources */,
 				31EA7D3C27F6215B006DDE02 /* ArtistView.swift in Sources */,
 				31EA7D7A27F63E10006DDE02 /* UseCase.swift in Sources */,

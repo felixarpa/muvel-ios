@@ -1,25 +1,27 @@
 import Foundation
 
 class LocalDataService: DataService {
-    func load<T: Decodable>(from filename: String) -> T {
-        let data: Data
+    func load<T: Decodable>(from path: String, completion: @escaping (DataResponse<T>) -> Void) {
+        let filename = "\(path)_list.json"
         
         guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
         else {
-            fatalError("Couldn't find \(filename) in main bundle.")
+            completion(.failure(.fileError))
+            return
         }
         
-        do {
-            data = try Data(contentsOf: file)
-        } catch {
-            fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+        guard let content = try? Data(contentsOf: file)
+        else {
+            completion(.failure(.fileError))
+            return
         }
         
         do {
             let decoder = JSONDecoder()
-            return try decoder.decode(T.self, from: data)
+            let data = try decoder.decode(T.self, from: content)
+            completion(.success(data))
         } catch {
-            fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+            completion(.failure(.parsingError))
         }
     }
 }
