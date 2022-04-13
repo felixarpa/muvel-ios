@@ -8,7 +8,9 @@ class ArtistsViewModel: ObservableObject {
     
     func getArtists() {
         artistsRepository.getArtistsList { [weak self] artists in
-            self?.artists = artists
+            DispatchQueue.main.async {
+                self?.artists = artists
+            }
         }
     }
 }

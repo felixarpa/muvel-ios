@@ -6,7 +6,14 @@ class ArtistsRepository: ArtistsRepositoryProtocol {
     
     func getArtistsList(completion: @escaping ([Artist]) -> Void) {
         DispatchQueue.main.async {
-            self.service.load(from: "artists", completion: completion)
+            self.service.load(from: "artists") { (response: DataResponse<[Artist]>) in
+                switch response {
+                case .failure:
+                    completion([])
+                case .success(let artists):
+                    completion(artists)
+                }
+            }
         }
     }
     

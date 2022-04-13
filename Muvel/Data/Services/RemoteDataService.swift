@@ -11,19 +11,35 @@ class RemoteDataService: DataService {
         self.urlSession = urlSession
     }
     
-    func load<T: Decodable>(from path: String, completion: @escaping (T) -> Void) {
+    func load<T: Decodable>(from path: String, completion: @escaping (DataResponse<T>) -> Void) {
         guard let url = URL(string: "\(Constants.BASE_URL)\(path)") else { return }
+        
         urlSession.dataTask(with: url) { data, response, error in
-            guard let data = data else { return }
+            if error != nil {
+                completion(.failure(.networkError))
+                return
+            }
+            
+            if let response = response as? HTTPURLResponse, !(200..<300).contains(response.statusCode) {
+                completion(.failure(.networkError))
+                return
+            }
+            
+            guard let data = data
+            else {
+                completion(.failure(.parsingError))
+                return
+            }
+            
             do {
                 let decoder = JSONDecoder()
                 let response = try decoder.decode(T.self, from: data)
-                completion(response)
+                completion(.success(response))
             } catch {
-                fatalError("Couldn't parse response from \(url.absoluteString) as \(T.self):\n\(error)")
+                completion(.failure(.parsingError))
             }
-        }.resume()
+        }
+        
+        .resume()
     }
-    
-    
 }
