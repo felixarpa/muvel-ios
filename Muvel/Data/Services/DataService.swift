@@ -1,5 +1,5 @@
 import Foundation
 
 protocol DataService {
-    func load<T: Decodable>(from filename: String) -> T
+    func load<T: Decodable>(from path: String, completion: @escaping (T) -> Void)
 }

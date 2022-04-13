@@ -1,7 +1,8 @@
 import Foundation
 
 class LocalDataService: DataService {
-    func load<T: Decodable>(from filename: String) -> T {
+    func load<T: Decodable>(from path: String, completion: @escaping (T) -> Void) {
+        let filename = "\(path)_list.json"
         let data: Data
         
         guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
@@ -17,7 +18,8 @@ class LocalDataService: DataService {
         
         do {
             let decoder = JSONDecoder()
-            return try decoder.decode(T.self, from: data)
+            let data = try decoder.decode(T.self, from: data)
+            completion(data)
         } catch {
             fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
         }
